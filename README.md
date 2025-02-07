@@ -20,3 +20,17 @@ AutoCatalogAI is an AI-powered application that transforms [raw vehicle images](
 - Message queues (RabbitMQ, Kafka) for asynchronous processing.  
 
 AutoCatalogAI is the ultimate solution for automating vehicle catalog creation, reducing time and costs while maintaining data accuracy and quality.
+
+```
+# Activate the local virtual env
+$ source .venv/bin/activate
+
+# Manual execution
+$ fastapi dev main.py
+
+# Using uvicorn to enable auto-realod
+$ uvicorn main:app --reload
+
+# Exit the virtual env
+$ deactivate
+```
